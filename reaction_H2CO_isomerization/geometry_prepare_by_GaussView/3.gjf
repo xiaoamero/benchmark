@@ -1,0 +1,12 @@
+%chk=3.chk
+# irc=(calcfc,recorrect=never,maxpoints=40,step=20,phase=1,3,4)
+apfd/6-311+g(2d,p) int=(ultrafine,acc2e=12)
+
+cis-trans HCOH TS
+
+0 1
+ C                  0.59833500    0.39767800   -0.18425800
+ H                  0.37000300    1.38291300    0.29632100
+ O                 -0.45311200   -0.30723500    0.12447400
+ H                 -0.34035600   -1.21995400   -0.20267500
+

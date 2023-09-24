@@ -1,0 +1,9 @@
+%OldChk=e6_07_ts1
+%Chk=e6_07_irc1
+# apfd/6-311+g(2d,p) geom=check guess=read Int=(Ultrafine,Acc2E=12)
+IRC(RCFC,MaxPoints=40,Step=20,Recorrect=Never,Phase=(1,4))
+
+CH2O <---> CO + H2 IRC
+
+ 0,1
+

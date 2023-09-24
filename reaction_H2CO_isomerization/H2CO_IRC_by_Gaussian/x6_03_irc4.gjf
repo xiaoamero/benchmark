@@ -1,0 +1,11 @@
+%chk=x6_03_irc4
+# IRC(CalcFC,MaxPoints=40,Step=20,Recorrect=Never,phase=(1,2)) APFd 6-311+G(2d,p) Int(Ultrafine,Acc2E=12)
+
+cis Hydroxycarbene --> CO + H2
+
+0 1
+ C                  0.15231500    0.66430200    0.00000000
+ H                 -1.17307000    0.94876300    0.00000000
+ O                  0.15231500   -0.60360200    0.00000000
+ H                 -0.95934400   -0.10575800    0.00000000
+

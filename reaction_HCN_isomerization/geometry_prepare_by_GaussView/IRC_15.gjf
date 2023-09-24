@@ -1,0 +1,15 @@
+%chk=C:\Users\Administrator\Desktop\benchmark_xxx\HCN-HNC\IRC_15.chk
+# irc=(calcfc,maxpoints=200,recalc=10,stepsize=15,lqa) b3lyp/6-311+g(d,p)
+geom=connectivity
+
+Title Card Required
+
+0 1
+ C                 -0.00272700    0.59599900    0.00000000
+ H                 -1.08980000    0.79640500    0.00000000
+ N                  0.08077100   -0.56806300    0.00000000
+
+ 1 2 1.0 3 3.0
+ 2
+ 3
+

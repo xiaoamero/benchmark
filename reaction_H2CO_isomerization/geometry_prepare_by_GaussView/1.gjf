@@ -1,0 +1,13 @@
+%oldchk=e6_07_ts1.chk
+%chk=1.chk
+# irc=(rcfc,recorrect=never,maxpoints=40,step=20,phase=1,4)
+apfd/6-311+g(2d,p) guess=read int=(ultrafine,acc2e=12)
+
+CH2O <---> CO + H2 IRC
+
+0 1
+ C                  0.18834300    0.02396400   -0.56061900
+ O                 -0.20403500   -0.02596000    0.56706500
+ H                 -0.51858800   -0.06597900   -1.44292600
+ H                  1.28204000    0.16311500   -0.81923400
+

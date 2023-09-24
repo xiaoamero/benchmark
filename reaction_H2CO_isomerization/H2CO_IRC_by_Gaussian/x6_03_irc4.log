@@ -1,0 +1,2891 @@
+ Entering Gaussian System, Link 0=/public4/home/pgv3801/softwares/g16/g16
+ Input=x6_03_irc4.gjf
+ Output=x6_03_irc4.log
+ Initial command:
+ /public4/home/pgv3801/softwares/g16/l1.exe "/public4/home/pgv3801/softwares/tmp/Gau-69924.inp" -scrdir="/public4/home/pgv3801/softwares/tmp/"
+ Entering Link 1 = /public4/home/pgv3801/softwares/g16/l1.exe PID=     69962.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                30-Sep-2020 
+ ******************************************
+ %chk=x6_03_irc4
+ ----------------------------------------------------------------------
+ # IRC(CalcFC,MaxPoints=40,Step=20,Recorrect=Never,phase=(1,2)) APFd 6-
+ 311+G(2d,p) Int(Ultrafine,Acc2E=12)
+ ----------------------------------------------------------------------
+ 1/10=4,18=10,26=4,38=1,39=20,42=40,44=3,101=1,102=2,131=1,172=1/1,23;
+ 2/12=2,17=6,18=5,29=1,40=1/2;
+ 3/5=4,6=6,7=112,11=2,25=1,27=12,30=1,71=2,74=-44,75=-5,140=1/1,2,3;
+ 4//1;
+ 5/5=2,38=5,87=12/2;
+ 8/6=4,10=90,11=11,87=12/1;
+ 11/6=1,8=1,9=11,15=111,16=1,87=12/1,2,10;
+ 10/6=1,13=1,87=12/2;
+ 6/7=2,8=2,9=2,10=2,28=1,87=12/1;
+ 7/10=1,25=1,87=12/1,2,3,16;
+ 1/10=4,18=10,26=4,39=20,42=40,44=3,101=1,102=2,131=1/23(2);
+ 2/29=1/2;
+ 99/5=20/99;
+ 2/29=1/2;
+ 3/5=4,6=6,7=112,11=2,25=1,27=12,30=1,71=2,74=-44,75=-5,140=1/1,2,3;
+ 4/5=5,16=3,69=1/1;
+ 5/5=2,38=5,87=12/2;
+ 8/6=4,10=90,11=11,87=12/1;
+ 11/6=1,8=1,9=11,15=111,16=1,87=12/1,2,10;
+ 10/6=1,13=1,87=12/2;
+ 7/10=1,25=1,87=12/1,2,3,16;
+ 1/18=10,26=4,39=20,42=40,44=3,101=1,102=2,131=1/23(-8);
+ 2/29=1/2;
+ 6/7=2,8=2,9=2,10=2,19=2,28=1,87=12/1;
+ 99/5=20,9=1/99;
+ ------------------------------
+ cis Hydroxycarbene --> CO + H2
+ ------------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C                     0.15232   0.6643    0. 
+ H                    -1.17307   0.94876   0. 
+ O                     0.15232  -0.6036    0. 
+ H                    -0.95934  -0.10576   0. 
+ 
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ ------------------------------------------------------------------------
+ INPUT DATA FOR L123
+ ------------------------------------------------------------------------
+ GENERAL PARAMETERS:
+ Follow reaction path in both directions.
+ Maximum points per path      =  40
+ Step size                    =   0.200 bohr
+ Integration scheme           = HPC                                 
+    Redo corrector integration= Never                               
+    DWI Weight Power          =  2
+    DWI will use Hessian update vectors when possible.
+ Initial Hessian              = CalcFC
+ Hessian evaluation           = All updating
+ Hessian updating method      = Bofill                              
+ ------------------------------------------------------------------------
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.152315    0.664302    0.000000
+      2          1           0       -1.173070    0.948763    0.000000
+      3          8           0        0.152315   -0.603602    0.000000
+      4          1           0       -0.959344   -0.105758    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.355568   0.000000
+     3  O    1.267904   2.041196   0.000000
+     4  H    1.352323   1.075962   1.218045   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         190.2337812          41.5040475          34.0707080
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.7649483898 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.7649483898 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.93D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.269393323     A.U. after   11 cycles
+            NFock= 11  Conv=0.70D-08     -V/T= 2.0030
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ G2DrvN: will do     5 centers at a time, making    1 passes.
+ Calling FoFCou, ICntrl=  3107 FMM=F I1Cent=   0 AccDes= 1.00D-12.
+ End of G2Drv F.D. properties file   721 does not exist.
+ End of G2Drv F.D. properties file   722 does not exist.
+ End of G2Drv F.D. properties file   788 does not exist.
+          IDoAtm=1111
+          Differentiating once with respect to nuclear coordinates.
+ Keep R1 ints in memory in canonical form, NReq=3339575.
+          There are    15 degrees of freedom in the 1st order CPHF.  IDoFFX=6 NUNeed=     0.
+      9 vectors produced by pass  0 Test12= 3.09D-15 6.67D-09 XBig12= 1.57D-01 2.45D-01.
+ AX will form     9 AO Fock derivatives at one time.
+      9 vectors produced by pass  1 Test12= 3.09D-15 6.67D-09 XBig12= 2.13D-02 7.92D-02.
+      9 vectors produced by pass  2 Test12= 3.09D-15 6.67D-09 XBig12= 1.02D-03 1.30D-02.
+      9 vectors produced by pass  3 Test12= 3.09D-15 6.67D-09 XBig12= 1.77D-05 1.20D-03.
+      9 vectors produced by pass  4 Test12= 3.09D-15 6.67D-09 XBig12= 9.49D-08 8.67D-05.
+      9 vectors produced by pass  5 Test12= 3.09D-15 6.67D-09 XBig12= 1.60D-10 3.81D-06.
+      4 vectors produced by pass  6 Test12= 3.09D-15 6.67D-09 XBig12= 2.39D-13 9.67D-08.
+ InvSVY:  IOpt=1 It=  1 EMax= 6.66D-16
+ Solved reduced A of dimension    58 with     9 vectors.
+ End of Minotr F.D. properties file   721 does not exist.
+ End of Minotr F.D. properties file   722 does not exist.
+ End of Minotr F.D. properties file   788 does not exist.
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --  -19.24335 -10.33544  -1.15691  -0.65526  -0.55971
+ Alpha  occ. eigenvalues --   -0.45135  -0.42972  -0.25395
+ Alpha virt. eigenvalues --   -0.07464  -0.03714   0.04071   0.06788   0.07330
+ Alpha virt. eigenvalues --    0.07412   0.13696   0.18838   0.21261   0.22319
+ Alpha virt. eigenvalues --    0.25940   0.31606   0.37675   0.43991   0.51008
+ Alpha virt. eigenvalues --    0.51395   0.56451   0.57051   0.75799   0.79163
+ Alpha virt. eigenvalues --    0.82921   0.95269   0.96312   1.03518   1.04233
+ Alpha virt. eigenvalues --    1.25970   1.29582   1.38479   1.44465   1.46443
+ Alpha virt. eigenvalues --    1.66196   1.71276   1.80975   1.90533   1.92473
+ Alpha virt. eigenvalues --    2.24241   2.39542   2.62475   2.65741   2.71127
+ Alpha virt. eigenvalues --    2.76313   3.08453   3.20888   3.22574   3.29091
+ Alpha virt. eigenvalues --    3.41499   3.54428   3.64573   4.95327   5.10949
+ Alpha virt. eigenvalues --    5.69112   6.72711   6.80066   6.91177   7.11299
+ Alpha virt. eigenvalues --    7.15506  23.78942  49.90354
+          Condensed to atoms (all electrons):
+               1          2          3          4
+     1  C    5.773884   0.109560   0.144710   0.047766
+     2  H    0.109560   0.899773  -0.252637   0.232230
+     3  O    0.144710  -0.252637   8.326675  -0.002161
+     4  H    0.047766   0.232230  -0.002161   0.440733
+ Mulliken charges:
+               1
+     1  C   -0.075920
+     2  H    0.011075
+     3  O   -0.216587
+     4  H    0.281433
+ Sum of Mulliken charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  C   -0.064845
+     3  O    0.064845
+ APT charges:
+               1
+     1  C   -0.175176
+     2  H    0.120168
+     3  O   -0.216365
+     4  H    0.271373
+ Sum of APT charges =   0.00000
+ APT charges with hydrogens summed into heavy atoms:
+               1
+     1  C   -0.055008
+     3  O    0.055008
+ Electronic spatial extent (au):  <R**2>=             62.2161
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -1.8520    Y=             -0.2884    Z=             -0.0000  Tot=              1.8744
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=            -12.1724   YY=            -15.3280   ZZ=            -12.4970
+   XY=             -0.3453   XZ=              0.0000   YZ=             -0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              1.1601   YY=             -1.9955   ZZ=              0.8354
+   XY=             -0.3453   XZ=              0.0000   YZ=             -0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=             -0.6317  YYY=             -7.4728  ZZZ=              0.0000  XYY=             -1.6551
+  XXY=             -3.0466  XXZ=              0.0000  XZZ=             -0.0626  YZZ=             -1.7380
+  YYZ=             -0.0000  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -27.9357 YYYY=            -51.9433 ZZZZ=            -11.8634 XXXY=              3.1708
+ XXXZ=              0.0000 YYYX=              0.1791 YYYZ=             -0.0000 ZZZX=              0.0000
+ ZZZY=              0.0000 XXYY=            -13.7921 XXZZ=             -6.7265 YYZZ=            -10.1081
+ XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=              0.6952
+ N-N= 3.076494838982D+01 E-N=-3.297519009008D+02  KE= 1.139271980465D+02
+  Exact polarizability:       0.000       0.000       0.000       0.000       0.000       0.000
+ Approx polarizability:      37.013      -5.175      36.119      -0.000      -0.000      17.466
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=    100127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6          -0.000179394    0.000381849   -0.000000000
+      2        1           0.000073135    0.000008181   -0.000000000
+      3        8          -0.000038700   -0.000417517    0.000000000
+      4        1           0.000144959    0.000027487    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.000417517 RMS     0.000178184
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+          ******** Start new reaction path calculation ********
+ Setting the phase of the TS vector:      1      2      0      0
+ Supplied step size of   0.2000 bohr.
+    Integration on MW PES will use step size of   0.2106 sqrt(amu)*bohr.
+ Point Number:   0          Path Number:   1
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.082702    0.684117    0.000000
+      2          1           0       -1.280471    0.961408   -0.000000
+      3          8           0        0.086877   -0.574065   -0.000000
+      4          1           0       -1.083040    0.003764    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.391089   0.000000
+     3  O    1.258189   2.056044   0.000000
+     4  H    1.349754   0.977784   1.304834   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         178.5459437          42.0247665          34.0178965
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.6675279155 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.6675279145 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.88D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.138456    0.056379    0.000000
+         Rot=    1.000000    0.000000   -0.000000    0.000849 Ang=   0.10 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.274097761     A.U. after   10 cycles
+            NFock= 10  Conv=0.48D-08     -V/T= 2.0029
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.008810259   -0.040065946    0.000000000
+      2        1          -0.014897981   -0.005541850   -0.000000000
+      3        8           0.030913432    0.016648080   -0.000000000
+      4        1          -0.024825709    0.028959716    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.040065946 RMS     0.019628513
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  1 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  5.48D-04 Err=  1.10D-03
+      PEZero:  N= 3 I= 2 D=  5.48D-04 Err=  7.35D-04
+      PEZero:  N= 3 I= 1 D=  1.10D-03 Err=  3.68D-07
+ Maximum DWI energy   std dev =  0.000043710 at pt     1
+ Maximum DWI gradient std dev =  0.064970448 at pt     1
+ Point Number:   1          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21039
+   NET REACTION COORDINATE UP TO THIS POINT =    0.21039
+  # OF POINTS ALONG THE PATH =   1
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.084741    0.675412    0.000000
+      2          1           0       -1.319103    0.946701   -0.000000
+      3          8           0        0.091676   -0.571196   -0.000000
+      4          1           0       -1.145294    0.076892    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.429817   0.000000
+     3  O    1.246627   2.072271   0.000000
+     4  H    1.367922   0.887005   1.396464   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         166.5568930          42.5980596          33.9222207
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.5880885843 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.5880882115 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.82D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.006003    0.003278    0.000000
+         Rot=    1.000000    0.000000   -0.000000    0.000596 Ang=   0.07 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.286793237     A.U. after   10 cycles
+            NFock= 10  Conv=0.40D-08     -V/T= 2.0027
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.023184619   -0.075552119   -0.000000000
+      2        1          -0.028105066   -0.005702047   -0.000000000
+      3        8           0.050384964    0.039384361    0.000000000
+      4        1          -0.045464517    0.041869805   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.075552119 RMS     0.035329323
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  2 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.26D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  8.35D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  2.46D-07
+ Maximum DWI energy   std dev =  0.000120681 at pt    50
+ Maximum DWI gradient std dev =  0.058075025 at pt    55
+ Point Number:   2          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21022
+   NET REACTION COORDINATE UP TO THIS POINT =    0.42062
+  # OF POINTS ALONG THE PATH =   2
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.088189    0.665391   -0.000000
+      2          1           0       -1.363795    0.939111   -0.000000
+      3          8           0        0.096264   -0.566917    0.000000
+      4          1           0       -1.215576    0.136615   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.477559   0.000000
+     3  O    1.232335   2.097592   0.000000
+     4  H    1.406914   0.816069   1.488583   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         154.1824213          43.2365665          33.7673624
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.5279097018 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.5278975249 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.74D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.006836    0.003015   -0.000000
+         Rot=    1.000000    0.000000    0.000000    0.000291 Ang=   0.03 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.303802060     A.U. after   10 cycles
+            NFock= 10  Conv=0.32D-08     -V/T= 2.0025
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.036774124   -0.097262589    0.000000000
+      2        1          -0.037291051    0.001645277   -0.000000000
+      3        8           0.055892951    0.058885505   -0.000000000
+      4        1          -0.055376025    0.036731807   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.097262589 RMS     0.043981939
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  3 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.75D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.17D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  3.87D-07
+ Maximum DWI energy   std dev =  0.000232425 at pt    36
+ Maximum DWI gradient std dev =  0.056367319 at pt    38
+ Point Number:   3          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21007
+   NET REACTION COORDINATE UP TO THIS POINT =    0.63069
+  # OF POINTS ALONG THE PATH =   3
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.092744    0.654185   -0.000000
+      2          1           0       -1.416167    0.945009   -0.000000
+      3          8           0        0.100689   -0.561526    0.000000
+      4          1           0       -1.289430    0.179618   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.536682   0.000000
+     3  O    1.215737   2.137873   0.000000
+     4  H    1.461375   0.775813   1.575349   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         142.2349776          43.8676656          33.5272854
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.4815096736 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.4814619036 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.65D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.007506    0.002911   -0.000000
+         Rot=    1.000000   -0.000000    0.000000    0.000056 Ang=   0.01 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ EnCoef did     1 forward-backward iterations
+ SCF Done:  E(RAPFD) =  -114.321827973     A.U. after   10 cycles
+            NFock= 10  Conv=0.23D-08     -V/T= 2.0023
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.044911536   -0.103017546    0.000000000
+      2        1          -0.040052583    0.007825832    0.000000000
+      3        8           0.051680927    0.068868118   -0.000000000
+      4        1          -0.056539881    0.026323596   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.103017546 RMS     0.046186704
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  4 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.61D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.07D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  4.12D-07
+ Maximum DWI energy   std dev =  0.000200331 at pt    35
+ Maximum DWI gradient std dev =  0.033671122 at pt    29
+ Point Number:   4          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21022
+   NET REACTION COORDINATE UP TO THIS POINT =    0.84090
+  # OF POINTS ALONG THE PATH =   4
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.098090    0.642554    0.000000
+      2          1           0       -1.470843    0.958133   -0.000000
+      3          8           0        0.104738   -0.555463   -0.000000
+      4          1           0       -1.364158    0.209534   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.600357   0.000000
+     3  O    1.198035   2.184818   0.000000
+     4  H    1.525017   0.756163   1.656163   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         131.5518902          44.4716722          33.2360762
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.4613887830 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.4613041120 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.56D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.007649    0.002621   -0.000000
+         Rot=    1.000000   -0.000000    0.000000   -0.000159 Ang=  -0.02 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.339074953     A.U. after   10 cycles
+            NFock= 10  Conv=0.16D-08     -V/T= 2.0022
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.047780533   -0.096542981   -0.000000000
+      2        1          -0.038858898    0.010028564    0.000000000
+      3        8           0.044613251    0.067881541    0.000000000
+      4        1          -0.053534886    0.018632876    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.096542981 RMS     0.043804039
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Reaction path inflection point has been passed.
+   Previous lowest Hessian eigenvalue=   -0.0128772814
+   Current lowest Hessian eigenvalue =    0.0174364094
+ Pt  5 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.04D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  6.92D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  3.10D-07
+ Maximum DWI energy   std dev =  0.000105818 at pt    46
+ Maximum DWI gradient std dev =  0.012566139 at pt    39
+ Point Number:   5          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21040
+   NET REACTION COORDINATE UP TO THIS POINT =    1.05131
+  # OF POINTS ALONG THE PATH =   5
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.104037    0.631234   -0.000000
+      2          1           0       -1.526432    0.973416   -0.000000
+      3          8           0        0.108501   -0.549374    0.000000
+      4          1           0       -1.439727    0.232708   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.665988   0.000000
+     3  O    1.180616   2.234255   0.000000
+     4  H    1.594374   0.745765   1.734550   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         122.1340566          44.9786041          32.8725505
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.4568552942 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.4567334579 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.47D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.007676    0.002382    0.000000
+         Rot=    1.000000    0.000000   -0.000000   -0.000326 Ang=  -0.04 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.354781080     A.U. after   10 cycles
+            NFock= 10  Conv=0.12D-08     -V/T= 2.0021
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.047078209   -0.082172859    0.000000000
+      2        1          -0.035670813    0.010277974   -0.000000000
+      3        8           0.037150549    0.058797651   -0.000000000
+      4        1          -0.048557946    0.013097234    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.082172859 RMS     0.038420393
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  6 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  6.29D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  4.18D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  2.11D-07
+ Maximum DWI energy   std dev =  0.000053391 at pt    46
+ Maximum DWI gradient std dev =  0.008167275 at pt    39
+ Point Number:   6          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21048
+   NET REACTION COORDINATE UP TO THIS POINT =    1.26179
+  # OF POINTS ALONG THE PATH =   6
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.110527    0.620760    0.000000
+      2          1           0       -1.583428    0.990140   -0.000000
+      3          8           0        0.112048   -0.543740   -0.000000
+      4          1           0       -1.516737    0.251480   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.733760   0.000000
+     3  O    1.164501   2.286357   0.000000
+     4  H    1.668639   0.741665   1.812544   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         113.7702518          45.3030598          32.4010387
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.4471681744 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.4470128082 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.40D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.007813    0.002250   -0.000000
+         Rot=    1.000000   -0.000000    0.000000   -0.000451 Ang=  -0.05 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.368537705     A.U. after    9 cycles
+            NFock=  9  Conv=0.80D-08     -V/T= 2.0019
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.043927367   -0.063113919   -0.000000000
+      2        1          -0.031400862    0.008615203    0.000000000
+      3        8           0.030173269    0.044395371    0.000000000
+      4        1          -0.042699773    0.010103345   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.063113919 RMS     0.031331480
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  7 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  5.25D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  3.50D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  8.55D-08
+ Maximum DWI energy   std dev =  0.000028597 at pt    46
+ Maximum DWI gradient std dev =  0.008963573 at pt    59
+ Point Number:   7          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21051
+   NET REACTION COORDINATE UP TO THIS POINT =    1.47230
+  # OF POINTS ALONG THE PATH =   7
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.117569    0.611772   -0.000000
+      2          1           0       -1.641836    1.005763    0.000000
+      3          8           0        0.115425   -0.539085    0.000000
+      4          1           0       -1.596006    0.269046   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.802979   0.000000
+     3  O    1.150858   2.339769   0.000000
+     4  H    1.747512   0.738141   1.892637   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         106.2726508          45.3691044          31.7952993
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.4118602015 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.4116779881 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.33D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.007998    0.002154   -0.000000
+         Rot=    1.000000    0.000000    0.000000   -0.000561 Ang=  -0.06 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.380159798     A.U. after    9 cycles
+            NFock=  9  Conv=0.49D-08     -V/T= 2.0018
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.039326114   -0.043288980    0.000000000
+      2        1          -0.026954141    0.008152483   -0.000000000
+      3        8           0.023970814    0.028515130   -0.000000000
+      4        1          -0.036342787    0.006621368    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.043288980 RMS     0.024093258
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  8 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  7.77D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  5.17D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  1.25D-07
+ Maximum DWI energy   std dev =  0.000011606 at pt    33
+ Maximum DWI gradient std dev =  0.009886984 at pt    59
+ Point Number:   8          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21047
+   NET REACTION COORDINATE UP TO THIS POINT =    1.68277
+  # OF POINTS ALONG THE PATH =   8
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.125034    0.604798    0.000000
+      2          1           0       -1.702419    1.024161   -0.000000
+      3          8           0        0.118675   -0.535874   -0.000000
+      4          1           0       -1.676911    0.283160   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.874953   0.000000
+     3  O    1.140690   2.397935   0.000000
+     4  H    1.830425   0.741440   1.973561   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          99.5426264          45.0780126          31.0272711
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.3199009674 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.3196982246 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.29D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.008260    0.002162    0.000000
+         Rot=    1.000000   -0.000000    0.000000   -0.000606 Ang=  -0.07 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.389706668     A.U. after    9 cycles
+            NFock=  9  Conv=0.19D-08     -V/T= 2.0018
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.033913698   -0.026448528   -0.000000000
+      2        1          -0.022361597    0.003927770    0.000000000
+      3        8           0.018748984    0.014892672    0.000000000
+      4        1          -0.030301085    0.007628087    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.033913698 RMS     0.018061911
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt  9 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  8.53D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  5.67D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  1.85D-07
+ Maximum DWI energy   std dev =  0.000004881 at pt    21
+ Maximum DWI gradient std dev =  0.023182321 at pt    59
+ Point Number:   9          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21040
+   NET REACTION COORDINATE UP TO THIS POINT =    1.89317
+  # OF POINTS ALONG THE PATH =   9
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.133109    0.599816   -0.000000
+      2          1           0       -1.763429    1.033965    0.000000
+      3          8           0        0.121772   -0.534014    0.000000
+      4          1           0       -1.759814    0.302330   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.945595   0.000000
+     3  O    1.133887   2.452048   0.000000
+     4  H    1.916156   0.731644   2.059086   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          93.4875412          44.5371975          30.1661363
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.1959183759 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.1957038754 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.26D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.008231    0.001953    0.000000
+         Rot=    1.000000    0.000000   -0.000000   -0.000766 Ang=  -0.09 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.397383070     A.U. after    8 cycles
+            NFock=  8  Conv=0.87D-08     -V/T= 2.0018
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.028535266   -0.014724854    0.000000000
+      2        1          -0.018435472    0.010069196   -0.000000000
+      3        8           0.014373450    0.005787107   -0.000000000
+      4        1          -0.024473244   -0.001131449   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.028535266 RMS     0.013882377
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 10 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.24D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  8.27D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  5.91D-07
+ Maximum DWI energy   std dev =  0.000015238 at pt    20
+ Maximum DWI gradient std dev =  0.071435570 at pt    59
+ Point Number:  10          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.21008
+   NET REACTION COORDINATE UP TO THIS POINT =    2.10326
+  # OF POINTS ALONG THE PATH =  10
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.140438    0.596839    0.000000
+      2          1           0       -1.826164    1.067285    0.000000
+      3          8           0        0.124731   -0.533781   -0.000000
+      4          1           0       -1.841115    0.304836   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.022088   0.000000
+     3  O    1.130729   2.523767   0.000000
+     4  H    2.002953   0.762596   2.137248   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          88.3180604          43.5145576          29.1515210
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.9713207199 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.9710233102 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.25D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.008962    0.002503   -0.000000
+         Rot=    1.000000   -0.000000    0.000000   -0.000389 Ang=  -0.04 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.403276681     A.U. after    9 cycles
+            NFock=  9  Conv=0.26D-08     -V/T= 2.0022
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.024036063   -0.009246427   -0.000000000
+      2        1          -0.015428573   -0.011781108   -0.000000000
+      3        8           0.011601345    0.002047013    0.000000000
+      4        1          -0.020208835    0.018980522    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.024036063 RMS     0.012739384
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 11 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  2.08D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.39D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  5.25D-07
+ Maximum DWI energy   std dev =  0.000123565 at pt    22
+ Maximum DWI gradient std dev =  0.231460402 at pt    39
+ Point Number:  11          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20807
+   NET REACTION COORDINATE UP TO THIS POINT =    2.31133
+  # OF POINTS ALONG THE PATH =  11
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.148984    0.594123   -0.000000
+      2          1           0       -1.886814    1.041503    0.000000
+      3          8           0        0.127234   -0.532950    0.000000
+      4          1           0       -1.922981    0.345802   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.084376   0.000000
+     3  O    1.127283   2.556422   0.000000
+     4  H    2.086793   0.696640   2.230603   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          83.7459546          42.8360996          28.3401156
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.8907706416 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.8903117551 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.23D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.008171    0.001297   -0.000000
+         Rot=    0.999999    0.000000   -0.000000   -0.001489 Ang=  -0.17 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.407094797     A.U. after    8 cycles
+            NFock=  8  Conv=0.94D-08     -V/T= 2.0017
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.019864264   -0.003404042    0.000000000
+      2        1          -0.010447325    0.039272197    0.000000000
+      3        8           0.008535663   -0.002050494   -0.000000000
+      4        1          -0.017952601   -0.033817661   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.039272197 RMS     0.017322001
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 12 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.65D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.09D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  2.32D-06
+ Maximum DWI energy   std dev =  0.000616516 at pt    23
+ Maximum DWI gradient std dev =  0.516244564 at pt    28
+ Point Number:  12          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20427
+   NET REACTION COORDINATE UP TO THIS POINT =    2.51560
+  # OF POINTS ALONG THE PATH =  12
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.152578    0.593712   -0.000000
+      2          1           0       -1.945498    1.106647    0.000000
+      3          8           0        0.129315   -0.534382    0.000000
+      4          1           0       -2.007764    0.320727   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.159868   0.000000
+     3  O    1.128334   2.645341   0.000000
+     4  H    2.177522   0.788383   2.301807   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          80.0113560          41.2793140          27.2305684
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.5503678632 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.5497617814 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.24D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.012379    0.003234   -0.000000
+         Rot=    1.000000    0.000000   -0.000000   -0.000324 Ang=  -0.04 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.411089828     A.U. after    8 cycles
+            NFock=  8  Conv=0.82D-08     -V/T= 2.0027
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.016038249   -0.006186201    0.000000000
+      2        1          -0.012250254   -0.026925044   -0.000000000
+      3        8           0.007083351    0.001747259   -0.000000000
+      4        1          -0.010871346    0.031363985    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.031363985 RMS     0.013921308
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Reaction path inflection point has been passed.
+   Previous lowest Hessian eigenvalue=   -0.0393361804
+   Current lowest Hessian eigenvalue =    0.0354382789
+ Pt 13 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  7.40D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  4.94D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  5.86D-06
+ Maximum DWI energy   std dev =  0.001501811 at pt    51
+ Maximum DWI gradient std dev =  0.720395185 at pt    56
+ Point Number:  13          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20270
+   NET REACTION COORDINATE UP TO THIS POINT =    2.71830
+  # OF POINTS ALONG THE PATH =  13
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.156285    0.594638    0.000000
+      2          1           0       -2.023036    1.082919    0.000000
+      3          8           0        0.115229   -0.528361   -0.000000
+      4          1           0       -2.077699    0.345641   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.233351   0.000000
+     3  O    1.123749   2.677386   0.000000
+     4  H    2.247818   0.739301   2.360681   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          75.9237604          40.9917379          26.6196264
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.5277836863 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.5270727513 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.22D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.027891    0.007076   -0.000000
+         Rot=    0.999999   -0.000000    0.000000   -0.001247 Ang=  -0.14 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.415221192     A.U. after    8 cycles
+            NFock=  8  Conv=0.69D-08     -V/T= 2.0023
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.013146523    0.003673293   -0.000000000
+      2        1          -0.007964724    0.003595853   -0.000000000
+      3        8           0.005455266   -0.007191140    0.000000000
+      4        1          -0.010637065   -0.000078005    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.013146523 RMS     0.006173308
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 14 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.09D-03 Err=  2.81D-04
+      PEZero:  N= 3 I= 2 D=  1.09D-03 Err=  1.87D-04
+      PEZero:  N= 3 I= 1 D=  2.18D-03 Err=  4.58D-07
+ Maximum DWI energy   std dev =  0.000123662 at pt    -1
+ Maximum DWI gradient std dev =  0.206949346 at pt    -1
+ Point Number:  14          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20847
+   NET REACTION COORDINATE UP TO THIS POINT =    2.92678
+  # OF POINTS ALONG THE PATH =  14
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.165962    0.594484    0.000000
+      2          1           0       -2.091258    1.098969    0.000000
+      3          8           0        0.121447   -0.531854   -0.000000
+      4          1           0       -2.162582    0.364484   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.312909   0.000000
+     3  O    1.127217   2.748754   0.000000
+     4  H    2.339876   0.737940   2.453612   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          72.8931499          39.2796272          25.5250501
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.2461256184 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.2453287745 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.24D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.005231    0.001056    0.000000
+         Rot=    1.000000    0.000000   -0.000000   -0.000651 Ang=  -0.07 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.417971548     A.U. after    8 cycles
+            NFock=  8  Conv=0.26D-08     -V/T= 2.0026
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.009791738   -0.005227278   -0.000000000
+      2        1          -0.005853750    0.004722228   -0.000000000
+      3        8           0.004217123    0.002630115    0.000000000
+      4        1          -0.008155111   -0.002125065    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.009791738 RMS     0.004791414
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 15 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  2.12D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.41D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  5.38D-07
+ Maximum DWI energy   std dev =  0.000087096 at pt    60
+ Maximum DWI gradient std dev =  0.144871417 at pt    29
+ Point Number:  15          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20999
+   NET REACTION COORDINATE UP TO THIS POINT =    3.13677
+  # OF POINTS ALONG THE PATH =  15
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.176088    0.588605   -0.000000
+      2          1           0       -2.152008    1.117665    0.000000
+      3          8           0        0.127457   -0.531305    0.000000
+      4          1           0       -2.241921    0.378716   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.387454   0.000000
+     3  O    1.120965   2.813373   0.000000
+     4  H    2.427101   0.744399   2.538128   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          71.2067333          37.8820470          24.7271700
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.1811185483 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.1802845228 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.21D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.003639    0.000399    0.000000
+         Rot=    1.000000    0.000000   -0.000000   -0.000290 Ang=  -0.03 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.419893278     A.U. after    8 cycles
+            NFock=  8  Conv=0.36D-08     -V/T= 2.0024
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.008249905    0.009707907    0.000000000
+      2        1          -0.004875350    0.000193765   -0.000000000
+      3        8           0.002493934   -0.011662302   -0.000000000
+      4        1          -0.005868489    0.001760630    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.011662302 RMS     0.005521767
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 16 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.73D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.15D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  8.75D-07
+ Maximum DWI energy   std dev =  0.000027550 at pt    22
+ Maximum DWI gradient std dev =  0.166930515 at pt    60
+ Point Number:  16          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20913
+   NET REACTION COORDINATE UP TO THIS POINT =    3.34590
+  # OF POINTS ALONG THE PATH =  16
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.184121    0.595574    0.000000
+      2          1           0       -2.218596    1.132361   -0.000000
+      3          8           0        0.128567   -0.537816   -0.000000
+      4          1           0       -2.320240    0.395704   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.461948   0.000000
+     3  O    1.134751   2.880740   0.000000
+     4  H    2.512324   0.743636   2.620710   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          68.0447311          36.2019261          23.6300174
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        28.7341985903 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       28.7333613170 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.28D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.010313    0.002708   -0.000000
+         Rot=    1.000000   -0.000000    0.000000   -0.000327 Ang=  -0.04 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.421182313     A.U. after    8 cycles
+            NFock=  8  Conv=0.45D-08     -V/T= 2.0031
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.004735128   -0.023341676   -0.000000000
+      2        1          -0.003659905    0.000921017    0.000000000
+      3        8           0.003355012    0.021839358    0.000000000
+      4        1          -0.004430236    0.000581301   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.023341676 RMS     0.009529240
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 17 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.67D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.11D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  1.39D-06
+ Maximum DWI energy   std dev =  0.000096841 at pt    23
+ Maximum DWI gradient std dev =  0.389097401 at pt    30
+ Point Number:  17          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20545
+   NET REACTION COORDINATE UP TO THIS POINT =    3.55135
+  # OF POINTS ALONG THE PATH =  17
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.190270    0.580222   -0.000000
+      2          1           0       -2.279307    1.146290    0.000000
+      3          8           0        0.132869   -0.528101    0.000000
+      4          1           0       -2.397991    0.410082   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.533622   0.000000
+     3  O    1.109808   2.936355   0.000000
+     4  H    2.593847   0.745713   2.699156   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          68.8675858          35.0939025          23.2473811
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        29.0843174620 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       29.0834978868 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.17D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.007796    0.002053   -0.000000
+         Rot=    1.000000    0.000000   -0.000000   -0.000720 Ang=  -0.08 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.421902457     A.U. after    8 cycles
+            NFock=  8  Conv=0.60D-08     -V/T= 2.0021
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.006688383    0.038271386    0.000000000
+      2        1          -0.002981331   -0.000488627   -0.000000000
+      3        8          -0.000438164   -0.039371657   -0.000000000
+      4        1          -0.003268887    0.001588899    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.039371657 RMS     0.016026255
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 18 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  2.88D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.92D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  4.44D-06
+ Maximum DWI energy   std dev =  0.000281967 at pt    22
+ Maximum DWI gradient std dev =  0.718288894 at pt    27
+ Point Number:  18          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.20033
+   NET REACTION COORDINATE UP TO THIS POINT =    3.75168
+  # OF POINTS ALONG THE PATH =  18
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.194785    0.599211   -0.000000
+      2          1           0       -2.346407    1.159011    0.000000
+      3          8           0        0.131444   -0.542636    0.000000
+      4          1           0       -2.473220    0.426092   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    2.602121   0.000000
+     3  O    1.143602   3.005885   0.000000
+     4  H    2.673615   0.743809   2.778976   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):          64.5255584          33.3323854          21.9787040
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        28.2618915581 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       28.2611077058 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.32D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=    -0.014831    0.003501   -0.000000
+         Rot=    1.000000   -0.000000    0.000000   -0.000659 Ang=  -0.08 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.422464869     A.U. after    8 cycles
+            NFock=  8  Conv=0.88D-08     -V/T= 2.0036
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.001022740   -0.043051442    0.000000000
+      2        1          -0.002096621    0.001044638    0.000000000
+      3        8           0.003644582    0.042170154   -0.000000000
+      4        1          -0.002570701   -0.000163349   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.043051442 RMS     0.017459954
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 19 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.05D-03
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.07D-03
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  5.60D-04
+      PEZero:  N= 4 I= 3 D=  5.48D-04 Err=  5.41D-03
+      PEZero:  N= 4 I= 2 D=  1.64D-03 Err=  6.15D-03
+      PEZero:  N= 5 I= 4 D=  5.48D-04 Err=  1.95D-03
+      PEZero:  N= 5 I= 3 D=  1.10D-03 Err=  8.34D-03
+      PEZero:  N= 6 I= 5 D=  2.74D-04 Err=  1.87D-04
+      PEZero:  N= 6 I= 4 D=  8.22D-04 Err=  1.70D-03
+      PEZero:  N= 7 I= 6 D=  2.74D-04 Err=  5.20D-04
+      PEZero:  N= 7 I= 5 D=  5.48D-04 Err=  9.66D-04
+      PEZero:  N= 8 I= 7 D=  1.37D-04 Err=  7.07D-04
+      PEZero:  N= 8 I= 6 D=  4.11D-04 Err=  4.23D-04
+      PEZero:  N= 8 I= 5 D=  6.85D-04 Err=  1.72D-04
+      PEZero:  N= 8 I= 4 D=  1.23D-03 Err=  1.65D-03
+      PEZero:  N= 9 I= 8 D=  1.37D-04 Err=  1.45D-04
+      PEZero:  N= 9 I= 7 D=  2.74D-04 Err=  4.90D-04
+      PEZero:  N=10 I= 9 D=  6.85D-05 Err=  1.31D-04
+      PEZero:  N=10 I= 8 D=  2.05D-04 Err=  3.19D-04
+      PEZero:  N=11 I=10 D=  6.85D-05 Err=  1.17D-04
+      PEZero:  N=11 I= 9 D=  1.37D-04 Err=  4.47D-05
+      PEZero:  N=11 I= 8 D=  2.74D-04 Err=  2.56D-04
+ Maximum DWI energy   std dev =  0.000625299 at pt    42
+ Maximum DWI gradient std dev =  2.392076010 at pt   112
+ WARNING: Bulirsch-Stoer Method is not Converging
+ Point Number:  19          Path Number:   1
+   CHANGE IN THE REACTION COORDINATE =    0.08359
+   NET REACTION COORDINATE UP TO THIS POINT =    3.83527
+  # OF POINTS ALONG THE PATH =  19
+  # OF STEPS =   1
+
+ PES minimum detected on this side of the pathway.
+    Magnitude of the gradient =      0.0000695
+ Calculation of FORWARD path complete.
+ Beginning calculation of the REVERSE path.
+ 
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.080982    0.700023   -0.000000
+      2          1           0       -1.206616    0.991654    0.000000
+      3          8           0        0.076807   -0.577602    0.000000
+      4          1           0       -0.976594   -0.159743   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.320211   0.000000
+     3  O    1.277633   2.027250   0.000000
+     4  H    1.362962   1.174149   1.133252   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         203.5855075          40.9125691          34.0665508
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.8899962902 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.8899962902 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.96D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.180362   -0.046595    0.000000
+         Rot=    0.999979    0.000000   -0.000000   -0.006438 Ang=  -0.74 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.273941894     A.U. after   12 cycles
+            NFock= 12  Conv=0.31D-08     -V/T= 2.0029
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6          -0.000023046    0.034617165   -0.000000000
+      2        1           0.014360484    0.004985441    0.000000000
+      3        8          -0.029248059   -0.006386741    0.000000000
+      4        1           0.014910621   -0.033215865   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.034617165 RMS     0.017443448
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 20 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  5.48D-04 Err=  1.31D-03
+      PEZero:  N= 3 I= 2 D=  5.48D-04 Err=  8.72D-04
+      PEZero:  N= 3 I= 1 D=  1.10D-03 Err=  5.06D-07
+ Maximum DWI energy   std dev =  0.000063985 at pt     1
+ Maximum DWI gradient std dev =  0.066639526 at pt     2
+ Point Number:   1          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21035
+   NET REACTION COORDINATE UP TO THIS POINT =    0.21035
+  # OF POINTS ALONG THE PATH =  20
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.081064    0.707600    0.000000
+      2          1           0       -1.168725    1.004370   -0.000000
+      3          8           0        0.071795   -0.578473   -0.000000
+      4          1           0       -0.935421   -0.249211    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.284541   0.000000
+     3  O    1.286106   2.011040   0.000000
+     4  H    1.395969   1.275107   1.059668   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         216.4115910          40.3511976          34.0098615
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        31.0112646383 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       31.0112646383 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.98D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.004764   -0.004248    0.000000
+         Rot=    0.999999    0.000000    0.000000   -0.001060 Ang=  -0.12 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.285549988     A.U. after   10 cycles
+            NFock= 10  Conv=0.53D-08     -V/T= 2.0027
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.003664569    0.054266311   -0.000000000
+      2        1           0.024098219    0.006645477    0.000000000
+      3        8          -0.043682014   -0.005473051    0.000000000
+      4        1           0.015919225   -0.055438737   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.055438737 RMS     0.027154030
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 21 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.58D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.05D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  4.61D-07
+ Maximum DWI energy   std dev =  0.000165262 at pt    49
+ Maximum DWI gradient std dev =  0.061543083 at pt    37
+ Point Number:   2          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21021
+   NET REACTION COORDINATE UP TO THIS POINT =    0.42055
+  # OF POINTS ALONG THE PATH =  21
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.081767    0.715032   -0.000000
+      2          1           0       -1.127315    1.014493    0.000000
+      3          8           0        0.067259   -0.578721    0.000000
+      4          1           0       -0.911876   -0.344966   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.245616   0.000000
+     3  O    1.293835   1.991316   0.000000
+     4  H    1.452902   1.376424   1.006651   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         228.0043601          39.7802026          33.8707338
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        31.0821198905 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       31.0821198905 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.98D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.003979   -0.004814   -0.000000
+         Rot=    0.999999   -0.000000    0.000000   -0.001083 Ang=  -0.12 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.300373129     A.U. after   10 cycles
+            NFock= 10  Conv=0.38D-08     -V/T= 2.0025
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.007162603    0.057559493    0.000000000
+      2        1           0.027403017    0.006160568   -0.000000000
+      3        8          -0.042254732   -0.001167797   -0.000000000
+      4        1           0.007689112   -0.062552264    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.062552264 RMS     0.028740231
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 22 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.83D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  1.22D-04
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  4.64D-07
+ Maximum DWI energy   std dev =  0.000239030 at pt    47
+ Maximum DWI gradient std dev =  0.046777227 at pt    38
+ Point Number:   3          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21024
+   NET REACTION COORDINATE UP TO THIS POINT =    0.63079
+  # OF POINTS ALONG THE PATH =  22
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.082789    0.722213    0.000000
+      2          1           0       -1.084112    1.023140   -0.000000
+      3          8           0        0.063444   -0.578551   -0.000000
+      4          1           0       -0.905138   -0.443236    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.205078   0.000000
+     3  O    1.300908   1.970354   0.000000
+     4  H    1.527832   1.477257   0.977988   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         237.8088846          39.1839642          33.6409220
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        31.0735773841 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       31.0735773841 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  1.99D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.003094   -0.005102    0.000000
+         Rot=    1.000000   -0.000000   -0.000000   -0.000975 Ang=  -0.11 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.315159191     A.U. after   10 cycles
+            NFock= 10  Conv=0.21D-08     -V/T= 2.0025
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.010275427    0.048855780   -0.000000000
+      2        1           0.024295310    0.005392186    0.000000000
+      3        8          -0.035805435    0.005312399    0.000000000
+      4        1           0.001234697   -0.059560365   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.059560365 RMS     0.025773083
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Reaction path inflection point has been passed.
+   Previous lowest Hessian eigenvalue=   -0.0362705170
+   Current lowest Hessian eigenvalue =    0.0153818795
+ Pt 23 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.24D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  8.23D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  3.58D-07
+ Maximum DWI energy   std dev =  0.000180474 at pt    46
+ Maximum DWI gradient std dev =  0.021795683 at pt    29
+ Point Number:   4          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21039
+   NET REACTION COORDINATE UP TO THIS POINT =    0.84119
+  # OF POINTS ALONG THE PATH =  23
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.084501    0.728562   -0.000000
+      2          1           0       -1.045332    1.031514    0.000000
+      3          8           0        0.059862   -0.577570    0.000000
+      4          1           0       -0.906669   -0.543543   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.169745   0.000000
+     3  O    1.306365   1.952078   0.000000
+     4  H    1.612659   1.581150   0.967130   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         245.5779639          38.6072135          33.3623342
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        31.0074622388 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       31.0074622388 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  2.00D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.002297   -0.005195   -0.000000
+         Rot=    0.999999    0.000000    0.000000   -0.001019 Ang=  -0.12 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.328124692     A.U. after    9 cycles
+            NFock=  9  Conv=0.86D-08     -V/T= 2.0025
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.012670339    0.034705886    0.000000000
+      2        1           0.017354951    0.005181668   -0.000000000
+      3        8          -0.030871365    0.011197438   -0.000000000
+      4        1           0.000846075   -0.051084992    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.051084992 RMS     0.021177614
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 24 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  7.60D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  5.07D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  9.29D-08
+ Maximum DWI energy   std dev =  0.000095694 at pt    46
+ Maximum DWI gradient std dev =  0.014380642 at pt    39
+ Point Number:   5          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21046
+   NET REACTION COORDINATE UP TO THIS POINT =    1.05165
+  # OF POINTS ALONG THE PATH =  24
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.087142    0.733763    0.000000
+      2          1           0       -1.014786    1.041933   -0.000000
+      3          8           0        0.055886   -0.575628   -0.000000
+      4          1           0       -0.905926   -0.646390    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.144209   0.000000
+     3  O    1.309764   1.939805   0.000000
+     4  H    1.700295   1.691829   0.964411   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         252.4807793          38.0545781          33.0701558
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.9202764121 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.9202764121 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  2.00D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.001878   -0.005118    0.000000
+         Rot=    0.999999    0.000000   -0.000000   -0.001218 Ang=  -0.14 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.338417053     A.U. after    9 cycles
+            NFock=  9  Conv=0.48D-08     -V/T= 2.0026
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.012840715    0.019756867   -0.000000000
+      2        1           0.009919511    0.005136584    0.000000000
+      3        8          -0.024759399    0.014198766    0.000000000
+      4        1           0.001999173   -0.039092217   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.039092217 RMS     0.015881934
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 25 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  1.01D-04
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  6.74D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  1.50D-07
+ Maximum DWI energy   std dev =  0.000050987 at pt    46
+ Maximum DWI gradient std dev =  0.017656929 at pt    59
+ Point Number:   6          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21040
+   NET REACTION COORDINATE UP TO THIS POINT =    1.26204
+  # OF POINTS ALONG THE PATH =  25
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.090602    0.737361   -0.000000
+      2          1           0       -0.993396    1.056394    0.000000
+      3          8           0        0.051575   -0.572618    0.000000
+      4          1           0       -0.900947   -0.750802   -0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.129971   0.000000
+     3  O    1.310560   1.935367   0.000000
+     4  H    1.788239   1.809560   0.969045   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         258.7075503          37.5411373          32.7838606
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.8152895351 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.8152895351 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  2.01D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.001558   -0.004909   -0.000000
+         Rot=    0.999999   -0.000000    0.000000   -0.001424 Ang=  -0.16 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.345644875     A.U. after    9 cycles
+            NFock=  9  Conv=0.86D-08     -V/T= 2.0029
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.009303337    0.007380708    0.000000000
+      2        1           0.004813446    0.004708575   -0.000000000
+      3        8          -0.019743631    0.012748864   -0.000000000
+      4        1           0.005626848   -0.024838147    0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.024838147 RMS     0.010752156
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 26 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  7.83D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  5.18D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  5.72D-07
+ Maximum DWI energy   std dev =  0.000022008 at pt    35
+ Maximum DWI gradient std dev =  0.044149926 at pt    30
+ Point Number:   7          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21019
+   NET REACTION COORDINATE UP TO THIS POINT =    1.47224
+  # OF POINTS ALONG THE PATH =  26
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.094545    0.739142    0.000000
+      2          1           0       -0.977010    1.077496   -0.000000
+      3          8           0        0.046146   -0.568704   -0.000000
+      4          1           0       -0.882042   -0.852668    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.123705   0.000000
+     3  O    1.308741   1.938251   0.000000
+     4  H    1.867507   1.932499   0.970653   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         267.9229388          37.0700782          32.5644318
+ Standard basis: 6-311+G(2d,p) (5D, 7F)
+    66 basis functions,   100 primitive gaussians,    70 cartesian basis functions
+     8 alpha electrons        8 beta electrons
+       nuclear repulsion energy        30.7534257682 Hartrees.
+ NAtoms=    4 NActive=    4 NUniq=    4 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Nuclear repulsion after empirical dispersion term =       30.7534257682 Hartrees.
+ One-electron integrals computed using PRISM.
+ NBasis=    66 RedAO= T EigKep=  2.02D-03  NBF=    66
+ NBsUse=    66 1.00D-06 EigRej= -1.00D+00 NBFU=    66
+ Initial guess from the checkpoint file:  "x6_03_irc4.chk"
+ B after Tr=     0.001880   -0.004275    0.000000
+         Rot=    0.999999   -0.000000   -0.000000   -0.001369 Ang=  -0.16 deg.
+ ExpMin= 4.38D-02 ExpMax= 8.59D+03 ExpMxC= 1.30D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 3731 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 3731 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3339185.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RAPFD) =  -114.349826402     A.U. after    9 cycles
+            NFock=  9  Conv=0.90D-08     -V/T= 2.0030
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1    66
+ NBasis=    66 NAE=     8 NBE=     8 NFC=     0 NFV=     0
+ NROrb=     66 NOA=     8 NOB=     8 NVA=    58 NVB=    58
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ R6APFD:  NTU= -4 IXU= 1 FactS= 1.050
+ Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.003653412   -0.000495686   -0.000000000
+      2        1           0.001908821    0.003412276    0.000000000
+      3        8          -0.008499480    0.008505058    0.000000000
+      4        1           0.002937247   -0.011421648   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.011421648 RMS     0.005103422
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+ Pt 27 Step number   1 out of a maximum of  20
+ Modified Bulirsch-Stoer Extrapolation Cycles:
+    EPS =    0.000010000000000
+      PEZero:  N= 2 I= 1 D=  1.10D-03 Err=  8.73D-05
+      PEZero:  N= 3 I= 2 D=  1.10D-03 Err=  5.81D-05
+      PEZero:  N= 3 I= 1 D=  2.19D-03 Err=  3.73D-07
+ Maximum DWI energy   std dev =  0.000010340 at pt    31
+ Maximum DWI gradient std dev =  0.037629600 at pt    31
+ Point Number:   8          Path Number:   2
+   CHANGE IN THE REACTION COORDINATE =    0.21024
+   NET REACTION COORDINATE UP TO THIS POINT =    1.68247
+  # OF POINTS ALONG THE PATH =  27
+  # OF STEPS =   1
+
+ Calculating another point on the path.
+ PES minimum detected within a second-order step.
+ Calculation of REVERSE path complete.
+ Reaction path calculation complete.
+ 
+ Energies reported relative to the TS energy of        -114.269393
+ --------------------------------------------------------------------------
+    Summary of reaction path following
+ --------------------------------------------------------------------------
+                        Energy    RxCoord
+   1                   -0.08044  -1.68247
+   2                   -0.07627  -1.47224
+   3                   -0.06903  -1.26204
+   4                   -0.05874  -1.05165
+   5                   -0.04579  -0.84119
+   6                   -0.03106  -0.63079
+   7                   -0.01626  -0.42055
+   8                   -0.00458  -0.21035
+   9                    0.00000   0.00000
+  10                   -0.00473   0.21039
+  11                   -0.01750   0.42062
+  12                   -0.03455   0.63069
+  13                   -0.05249   0.84090
+  14                   -0.06969   1.05131
+  15                   -0.08539   1.26179
+  16                   -0.09915   1.47230
+  17                   -0.11077   1.68277
+  18                   -0.12032   1.89317
+  19                   -0.12806   2.10326
+  20                   -0.13445   2.31133
+  21                   -0.13992   2.51560
+  22                   -0.14309   2.71830
+  23                   -0.14604   2.92678
+  24                   -0.14862   3.13677
+  25                   -0.15058   3.34590
+  26                   -0.15212   3.55135
+  27                   -0.15344   3.75168
+  28                   -0.15396   3.83527
+ --------------------------------------------------------------------------
+ 
+ Total number of points:                   27
+ Total number of gradient calculations:    28
+ Total number of Hessian calculations:      1
+ IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC-IRC
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.094545    0.739142    0.000000
+      2          1           0       -0.977010    1.077496   -0.000000
+      3          8           0        0.046146   -0.568704   -0.000000
+      4          1           0       -0.882042   -0.852668    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  H    1.123705   0.000000
+     3  O    1.308741   1.938251   0.000000
+     4  H    1.867507   1.932499   0.970653   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH2O
+ Framework group  CS[SG(CH2O)]
+ Deg. of freedom     5
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         267.9229388          37.0700782          32.5644318
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --  -19.26543 -10.27335  -1.14651  -0.68751  -0.57491
+ Alpha  occ. eigenvalues --   -0.44707  -0.42952  -0.23805
+ Alpha virt. eigenvalues --   -0.06551  -0.01275   0.05353   0.07771   0.08140
+ Alpha virt. eigenvalues --    0.12364   0.15072   0.18193   0.20322   0.24404
+ Alpha virt. eigenvalues --    0.26072   0.30399   0.45289   0.47974   0.54949
+ Alpha virt. eigenvalues --    0.57082   0.61734   0.61971   0.70821   0.79245
+ Alpha virt. eigenvalues --    0.79907   0.91948   0.98769   1.00915   1.04771
+ Alpha virt. eigenvalues --    1.21265   1.26860   1.38670   1.49307   1.66180
+ Alpha virt. eigenvalues --    1.68116   1.81834   1.90623   2.02491   2.03610
+ Alpha virt. eigenvalues --    2.17134   2.31610   2.51029   2.66080   2.76774
+ Alpha virt. eigenvalues --    2.84010   3.06320   3.23331   3.25828   3.30795
+ Alpha virt. eigenvalues --    3.44309   3.45886   3.90948   4.92908   5.33650
+ Alpha virt. eigenvalues --    5.85130   6.75259   6.87758   6.89327   7.03857
+ Alpha virt. eigenvalues --    7.18976  23.86872  49.89298
+          Condensed to atoms (all electrons):
+               1          2          3          4
+     1  C    5.859091   0.235584   0.090659   0.020947
+     2  H    0.235584   0.758636  -0.037585  -0.047302
+     3  O    0.090659  -0.037585   7.867005   0.240929
+     4  H    0.020947  -0.047302   0.240929   0.508805
+ Mulliken charges:
+               1
+     1  C   -0.206281
+     2  H    0.090668
+     3  O   -0.161008
+     4  H    0.276621
+ Sum of Mulliken charges =  -0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  C   -0.115613
+     3  O    0.115613
+ APT charges:
+               1
+     1  C   -0.408462
+     2  H    0.280622
+     3  O   -0.358920
+     4  H    0.486760
+ Sum of APT charges =  -0.00000
+ APT charges with hydrogens summed into heavy atoms:
+               1
+     1  C   -0.127840
+     3  O    0.127840
+ Electronic spatial extent (au):  <R**2>=             62.4460
+ Charge=             -0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -3.1700    Y=             -1.5141    Z=             -0.0000  Tot=              3.5130
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=            -11.9834   YY=            -13.8582   ZZ=            -12.2481
+   XY=             -0.3021   XZ=             -0.0000   YZ=              0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              0.7132   YY=             -1.1616   ZZ=              0.4485
+   XY=             -0.3021   XZ=             -0.0000   YZ=              0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=             -2.8236  YYY=             -9.5756  ZZZ=             -0.0000  XYY=             -3.8913
+  XXY=             -4.7194  XXZ=              0.0000  XZZ=             -0.3188  YZZ=             -1.8061
+  YYZ=             -0.0000  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -20.9786 YYYY=            -56.1827 ZZZZ=            -11.8027 XXXY=             -0.8437
+ XXXZ=             -0.0000 YYYX=             -2.5128 YYYZ=             -0.0000 ZZZX=              0.0000
+ ZZZY=              0.0000 XXYY=            -12.9500 XXZZ=             -5.8429 YYZZ=            -10.9236
+ XXYZ=              0.0000 YYXZ=             -0.0000 ZZXY=             -0.5121
+ N-N= 3.075342576816D+01 E-N=-3.299829773159D+02  KE= 1.140085997782D+02
+  Exact polarizability:       0.000       0.000       0.000       0.000       0.000       0.000
+ Approx polarizability:      23.838      -0.671      28.755       0.000      -0.000      19.498
+
+ This type of calculation cannot be archived.
+
+
+ THE MEEK SHALL INHERIT THE EARTH.
+ (THE REST OF US WILL ESCAPE TO THE STARS)
+ Job cpu time:       0 days  0 hours  5 minutes 31.5 seconds.
+ Elapsed time:       0 days  0 hours  5 minutes 32.9 seconds.
+ File lengths (MBytes):  RWF=     22 Int=      0 D2E=      0 Chk=      3 Scr=      2
+ Normal termination of Gaussian 16 at Wed Sep 30 10:47:50 2020.

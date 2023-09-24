@@ -1,0 +1,9 @@
+%OldChk=e6_07_ts2
+%chk=e6_07_irc2
+# IRC(RCFC,MaxPoints=40,Step=20,Recorrect=Never,Phase=(1,2,4)) APFd 6-311+G(2d,p) Int(Ultrafine,Acc2E=12)
+geom=check guess=read 
+
+CH2O <---> HCOH IRC
+
+ 0,1
+
